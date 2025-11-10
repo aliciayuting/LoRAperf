@@ -1,0 +1,23 @@
+Metric,Adapter (Separate),Merged,Difference
+=== LOADING METRICS ===,,,
+Total Load Time (s),5.36,6.05,-0.70
+Base Load Time (s),2.93,N/A,
+Adapter Load Time (s),2.43,N/A,
+Merge Time (s),N/A,0.08,
+Total Memory (MB),13462.51,12860.63,601.88
+Base Memory (MB),12852.51,N/A,
+Adapter Memory (MB),610.00,N/A (merged),
+Peak Load Memory (MB),14072.51,14080.63,-8.12
+,,,
+=== INFERENCE METRICS ===,,,
+Mean Inference Time (s),4.9642,2.2570,2.7072
+Std Inference Time (s),1.2719,0.6791,0.5928
+Median Inference Time (s),5.5218,2.5543,2.9675
+Min Inference Time (s),0.0590,0.0289,0.0301
+Max Inference Time (s),5.8095,2.7347,3.0748
+Mean Peak Memory (MB),13540.61,12931.59,609.02
+Max Peak Memory (MB),13908.81,13245.45,663.36
+,,,
+=== PERFORMANCE COMPARISON ===,,,
+Speed Ratio (Adapter/Merged),2.20x,,Merged is 2.20x faster
+Memory Ratio (Adapter/Merged),1.05x,,Adapter uses 1.05x more memory
